@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>article</title>
+    <link rel="stylesheet" href="article.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        .loading {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: rgb(23, 57, 151);
+            z-index: 10000;
+        }
+    </style>
+    <script type="text/javascript">
+        document.onreadystatechange = function() {
+            if (document.readyState == "complete") {
+                setTimeout(function() {
+                    $(".loading").fadeOut(500);
+                }, 500);
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="home">
+        <a href="#top" class="a003">top</a>
+    </div>
+    <!-- 加载页面 -->
+    <div class="loading">
+		<!-- 这里是自由发挥的空间，可以用canvas或者img -->
+        <div class="loader"></div>
+    </div>
+    <!-- 按钮 -->
+    <div class="nav">
+        <input type="checkbox">
+          <span></span>
+          <span></span>
+          <div class="menu">
+            <li><a href="./index.html">blog</a></li>
+            <li><a href="./all.html">home</a></li>
+            <li><a href="#">about</a></li>
+          </div>
+      </div>
+    <!-- 侧边栏 -->
+    <div id="div1">
+        <h1 id="h1001">article</h1>
+        <ul id="epository">
+            <li class="li001"><a href="./index.html" class="a001">Blog首页</a></li>
+            <li class="li002"><a href="./all.html" class="a001">首页</a></li>
+            <li class="li003"><a href="#" class="a001">关于</a></li>
+        </ul>
+    </div>
+    <!-- 主题内容 -->
+    <div id="div2">
+        <div class="neiron">
+            <img src="./img/9EOPR1O44`P}PGD}0AC)$J0.jpg" alt="" class="chatu" id="skyrim01">
+            <h2 id="h2001"><a href="#" class="a002">skyrim提帧教程</a></h2>
+            <h3 id="h3001">2022.9.17</h3>
+            <h4 id="h4001">相关游戏:上古卷轴5天际,英文名:skyrim</h4>
+            <hr id="hr001">
+        </div>
+        <!-- <div>
+            <img src="./img/Cuphead.jpg" alt="" class="chatu" id="cuphead01">
+            <h2 id="h2002"><a href="#" class="a002">茶杯头资源</a></h2>
+            <h3 id="h3002">2022.9.17</h3>
+            <h4 id="h4002">相关游戏:茶杯头,英文名:Cuphead</h4>
+            <hr id="hr002">
+        </div> -->
+
+    </div>
+</body>
+</html>
