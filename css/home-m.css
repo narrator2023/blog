@@ -1,7 +1,4 @@
 @media (max-width:425px) {
-    #all {
-        display: none !important;
-    }
     .home {
         width: 100%;
     }
@@ -74,8 +71,8 @@
         width: 290px;
         height: 230px;
         position: relative;
-        margin-top: 15px;
-        top: 195px;
+        margin-top: 20px;
+        top: 420px;
     }
     #img1 {
         background-size: 120% 200% !important; 
@@ -90,7 +87,7 @@
     }
     #about {
         position: absolute;
-        top: 1600px;
+        top: 1800px;
         margin: 0 auto;
     }
     #div13 {
@@ -99,7 +96,7 @@
     }
     #about2 {
         position: absolute;
-        top: 1920px !important;
+        top: 2120px !important;
         margin:0 auto;
     }
     #lan {
@@ -116,7 +113,7 @@
     }
     #b003 {
         font-size: 15px !important;
-        top: 135px !important;
+        top: 130px !important;
         right: 10px !important;
     }
     #button {
@@ -141,18 +138,32 @@
     }
     .b004 {
         margin: 0 !important;
+        font-size: 17px !important;
     }
     iframe {
         display: none;
     }
     #weibu {
         position: relative;
-        top: 1300px;
+        top: 1200px;
         width: 320px;
         margin: 0 auto;
     }
     .bottom2 {
         width: 80px;
         overflow: hidden;
+    }
+    #say {
+        display: none;
+    }
+    .all {
+        display: none;
+    }
+    .tool {
+        position: absolute;
+        top: 630px;
+        z-index: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

@@ -23,7 +23,7 @@
      <!-- 加载页面 -->
      <div class="loading">
         <b id="jiazai" style="color: #ffffff; position: absolute; left: 50%;transform: translateX(-50%);top: 40%; font-size: 35px; ">加载中</b>
-        <p style="color: #ffffff; position: absolute; left: 50%;transform: translateX(-50%);top: 50%; font-size: 17px; ">本网页自动播放音乐，注意调整音量！</p>
+        <!-- <p style="color: #ffffff; position: absolute; left: 50%;transform: translateX(-50%);top: 50%; font-size: 17px; ">本网页自动播放音乐，注意调整音量！</p> -->
         <div class="loader"></div>
     </div>
     <div id="html">
@@ -35,6 +35,19 @@
             <li><a href="#about">关于</a></li>
         </ul>
     </div>
+    
+    <div class="tool">
+        <div id="music">
+            <iframe frameborder="no" border="0" loading="lazy" onload="alert('iframe lazy...'); marginwidth="0" marginheight="0" width=280 height=80 src="https://music.163.com/outchain/player?type=2&id=1903373190&auto=0&height=66"></iframe>
+            <iframe frameborder="no" border="0" loading="lazy" onload="alert('iframe lazy...'); marginwidth="0" marginheight="0" width=280 height=80 src="https://music.163.com/outchain/player?type=2&id=1870469768&auto=0&height=66"></iframe>
+        </div>
+        <div class="classify"><p class="zi">css</p></div>
+        <div class="classify"><p class="zi">javascript</p></div>
+        <div class="classify"><p class="zi">html</p></div>
+        <div class="classify"><p class="zi">图片分享</p></div>
+        <div class="classify"><p class="zi">心得分享</p></div>
+        <div class="classify"><p class="zi">生活琐事</p></div>
+    </div>
     <!-- 主页 -->
     <div class="home">
         <div id="div5">
@@ -44,7 +57,7 @@
         </div>
     <div id="div14">
         <div id="lan" class="neiron" style="position: absolute; left: 540px; top: 0px; height: 375px; background-image: url(./img/home.jpg); background-size: 140% 160%; background-repeat: no-repeat;">
-            <b class="b" id="b003" style="color: white; position:absolute ;top:280px; font-size: 23px; right: 40px;" >
+            <b class="b" id="b003" style="color: white; position:absolute ;top:285px; font-size: 23px; right: 25px; font-family: KaiTi;" >
             音无结弦之时，悦动天使之音。<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp立于浮华之世，奏响天籁之音。
             </b>
             <div id="button" onclick="window.open('https://mzh.moegirl.org.cn/%E7%AB%8B%E5%8D%8E%E5%A5%8F');">
@@ -77,8 +90,6 @@
            <div id="more" style="width:90px; height:30px; border-radius: 10px; background-color: white; margin: 0 auto; margin-top: 60px;"><p style="text-align:center;padding-top:4px;">查看更多</p></div>
         </div>
     </div>
-
-
         <div id="div6">
             <div id="like"><a class="like" href="https://hanyu.baidu.com/shici/detail?from=kg1&highlight=%E6%B5%B7%E5%86%85%E5%AD%98%E7%9F%A5%E5%B7%B1%EF%BC%8C%E5%A4%A9%E6%B6%AF%E8%8B%A5%E6%AF%94%E9%82%BB%E3%80%82&pid=3d477208770e4d68b84823c7b040a8d6&srcid=51369"><p style="text-align: center; font-weight:bold;">“海内存知己，天涯若比邻。”</p></a>
             <div id="button2">
@@ -86,13 +97,19 @@
             </div>
         </div>
         </div>
+        
+    <div id="say" style="background-image:url(./img/sun.png) ;">
+    </div>
+
     <div id="div11">
         <div id="div7" class="wenzhang">
            <div id="img1" style="width: 100%; height:140px; background-color: rgb(197, 197, 197); background-image: url(./img/neiron01.jpg); background-size: 100% 250%; background-repeat: no-repeat; border-radius: 5px;"></div>
            <p style="color:rgb(100, 100, 100); font-size: 10px; margin:20px; margin-top:10px; margin-bottom: 5px;">2023.4.29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#图片分享</p>
            <div class="div15">
-                <b class="b004" style="color: black; font-size: 18px; margin: 20px;">站长珍藏的图片都在这里啦！ (owO)b</b>
+                <b class="b004" style="color: black; font-size: 18px; margin: 20px;">图库v1.0</b>
            </div>
+           <p class="all" style="font-size:15px; color:#363636; margin-left: 20px; margin-top: 10px;  width: 390px; height: 230px; word-wrap:break-word; word-break:break-all; overflow: hidden;">
+               站长珍藏的图片都在这里啦！</p>
         </div>
         <div id="div8" class="wenzhang">
             <div id="img1" style="width: 100%; height:140px; background-color: rgb(197, 197, 197); background-image: url(./img/neiron02.png); background-size: 100% 250%; background-repeat: no-repeat; border-radius: 5px; background-position: 20% 50%;"></div>
@@ -100,6 +117,8 @@
             <div class="div15">
                 <b class="b004" style="color: black; font-size: 18px; margin: 20px;">低预算与高预算的电脑配置推荐(2023)</b>
             </div>
+            <p class="all" style="font-size:15px; color:#363636; margin-left: 20px; margin-top: 10px;  width: 390px; height:40px; word-wrap:break-word; word-break:break-all; overflow: hidden;">
+               在显卡行情跌宕起伏的时期，整机价格也随着显卡价格一样，十分不稳定。目前非刚需的话，推荐到23年下半旬...</p>
         </div>
         <div id="div9" class="wenzhang">
             <div id="img1" style="width: 100%; height:140px; background-color: rgb(197, 197, 197); background-image: url(./img/neiron01.jpg); background-size: 100% 250%; background-repeat: no-repeat; border-radius: 5px;"></div>
@@ -107,6 +126,8 @@
             <div class="div15">
                 <b class="b004" style="color: black; font-size: 18px; margin: 20px;">图库测试v1.0</b>
             </div>
+            <p class="all" style="font-size:15px; color:#363636; margin-left: 20px; margin-top: 10px;  width: 390px; height: 230px; word-wrap:break-word; word-break:break-all; overflow: hidden;">
+                站长珍藏的图片都在这里啦！</p>
         </div>
         <div id="div10" class="wenzhang">
             <div id="img1" style="width: 100%; height:140px; background-color: rgb(197, 197, 197); background-image: url(./img/neiron01.jpg); background-size: 100% 250%; background-repeat: no-repeat; border-radius: 5px;"></div>
@@ -114,11 +135,10 @@
             <div class="div15">
                 <b class="b004" style="color: black; font-size: 18px; margin: 20px;">图库测试v1.0</b>
             </div>
-        </div>
-        <div id="all" style="width:130px; height:40px; border:1px solid rgb(230, 230, 230); position: absolute; top: 1030px; left: 400px; border-radius: 10px; background-color: rgb(41, 41, 255);"><p style="color: white;  font-size: 15px; text-align: center; margin-top: 10px;">查看全部</p></div>
-        </div>
+            <p class="all" style="font-size:15px; color:#363636; margin-left: 20px; margin-top: 10px;  width: 390px; height: 230px; word-wrap:break-word; word-break:break-all; overflow: hidden;">
+                站长珍藏的图片都在这里啦！</p>
+       </div>
     </div>
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=290 height=86 src="https://music.163.com/outchain/player?type=2&id=1870469768&auto=1&height=66"></iframe>
     <div id="weibu">
         <div class="bottom">
             <div style="width:80px; height:190px;">

@@ -112,7 +112,7 @@ a:visited{
 
 .wenzhang {
     width: 430px;
-    height: 240px;
+    height: 270px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(206, 206, 206);
     position: relative;
@@ -126,17 +126,11 @@ a:visited{
     height: 260px;
     background-color: white;
     position: relative;
+    top: -100px;
     box-shadow: 0 2px 20px 0 rgb(214, 214, 214);
 }
 .wenzhang:hover {
     border: 1px solid blue;
-}
-#all {
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;   
-}
-#all:hover {
-    box-shadow: 0px 0px 25px rgba(49, 49, 49, 0.24);
 }
 #div1 {
     background-size: 110% 110%; 
@@ -171,8 +165,104 @@ a:visited{
     background-color: rgb(23, 57, 151);
     z-index: 9999999;
 }
+#say {
+    width: 880px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 480px;
+    margin-left: 20px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    box-shadow: 0 2px 20px 0 rgb(206, 206, 206);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;  
+}
+#say:hover {
+    filter: brightness(70%);
+}
+
+.tool {
+    height: 200px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    z-index: 99999;
+    position: absolute;
+    right:20px;
+    bottom: 20px;
+    position: fixed;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    box-shadow: 0 2px 20px 0 rgb(185, 184, 184);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.classify {
+    height: 30px;
+    width: 95px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; 
+    border: 1px solid rgb(194, 194, 194);
+}
+.classify:hover {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 2px 20px 0 rgb(185, 184, 184);
+
+}
+
+.zi {
+    margin: 0;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 13px;
+}
+#music {
+    height: 300px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    z-index: 99999;
+    position: absolute;
+    right:20px;
+    bottom: 210px;
+    position: fixed;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    display: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width:426px) {
+    .tool:hover #music {
+        display: block;
+    }
     #div3 {
         position: absolute; 
         left:270px; 
@@ -193,19 +283,19 @@ a:visited{
         left: 20px;
     }
     #div7 {
-        top:70px; 
+        top:320px; 
         left:20px;
     }
     #div8 {
         left:470px; 
-        top: -170px;
+        top: 50px;
     }
     #div9 {
-        top:-150px; 
+        top:70px; 
         left:20px;
     }
     #div10 {
-        top:-390px;
+        top:-200px;
          left:470px;
     }
     #div13 {
@@ -217,4 +307,3 @@ a:visited{
         right: 25px;
     }
 }
-
