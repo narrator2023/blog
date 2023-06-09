@@ -12,11 +12,17 @@ body {
 }
 .log {
     height: 100px;
-    width: 340px;
+    width: 310px;
     background-color: rgb(255, 255, 255);
     margin-top: 100px;
     margin-left: 200px;
-    box-shadow: 0px 0px 25px rgba(211, 210, 210, 0.24);
+    box-shadow: 10px 10px 25px rgba(138, 138, 138, 0.24);
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+}
+.log:hover {
+    box-shadow: 20px 20px 2px 0px rgb(148, 148, 148);
+    transform: translate(-5px,-5px);
 }
 .font {
     font-size: 15px;

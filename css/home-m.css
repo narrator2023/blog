@@ -4,9 +4,8 @@
     }
     #div1 {
         width: 300px !important;
-        height: 180px !important; 
-        background-size: 180% 110%;
-        background-position: -40% 40%;
+        height: 320px !important; 
+        background-size: 110% 100%;
         margin: 0 !important; 
     }
 
@@ -20,7 +19,8 @@
         width: 140px;
         height: 70px;
         margin: 0 auto;
-        margin-top: 15px;
+        position: relative;
+        top: 15px;
     }
     #b01 {
         font-size: 20px !important;
@@ -39,6 +39,8 @@
         justify-content: space-evenly;
         width: 320px;
         margin: 0 auto;
+        position: relative;
+        top: 0px;
     }
     #div5 {
         display: flex;
@@ -56,6 +58,8 @@
         justify-content: center;
         width: 320px;
         margin: 0 auto;
+        position: relative;
+        top: 195px;
     }
     #button2 {
         display: none;
@@ -72,7 +76,7 @@
         height: 230px;
         position: relative;
         margin-top: 20px;
-        top: 420px;
+        top: 187px;
     }
     #img1 {
         background-size: 120% 200% !important; 
@@ -87,7 +91,7 @@
     }
     #about {
         position: absolute;
-        top: 1800px;
+        top: 1700px;
         margin: 0 auto;
     }
     #div13 {
@@ -96,13 +100,13 @@
     }
     #about2 {
         position: absolute;
-        top: 2120px !important;
+        top: 2020px !important;
         margin:0 auto;
     }
     #lan {
         width: 300px;
         height: 180px !important;
-        top: 345px !important;
+        top: 420px !important;
         left: 10px !important;
         right: 10px !important;
         margin: 0 auto !important;
@@ -113,7 +117,7 @@
     }
     #b003 {
         font-size: 15px !important;
-        top: 130px !important;
+        top: 120px !important;
         right: 10px !important;
     }
     #button {
@@ -140,30 +144,39 @@
         margin: 0 !important;
         font-size: 17px !important;
     }
-    iframe {
-        display: none;
-    }
     #weibu {
-        position: relative;
-        top: 1200px;
-        width: 320px;
-        margin: 0 auto;
+        position: absolute;
+        top: 2500px;
+        height: 650px;
+    }
+    .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .all {
+        display: none;
     }
     .bottom2 {
         width: 80px;
         overflow: hidden;
     }
-    #say {
-        display: none;
+    #like {
+        overflow: auto;
     }
-    .all {
-        display: none;
+    .biaoqian {
+        margin-left: 40px;
+        width: 50px;
     }
-    .tool {
-        position: absolute;
-        top: 630px;
-        z-index: 0;
-        left: 50%;
-        transform: translateX(-50%);
+    .anjian {
+        background-size: 140% 121% !important;
+        background-position: -40px -10px !important;
     }
+}
+
+@media (max-width:311px) {
+    #weibu {
+        width: 315px;
+        margin: 0 auto;
+    }
+    
 }
