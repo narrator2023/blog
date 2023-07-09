@@ -1,0 +1,11 @@
+@media (max-width:520px) {
+    .log {
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:320px) {
+    .log {
+        margin-left: 10px;
+    }
+}
