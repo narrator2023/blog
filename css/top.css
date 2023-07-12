@@ -5,8 +5,7 @@ body {
 .top {
     height: 60px;
     width: 100%;
-    background-color: rgba(255, 255, 255,50%);
-    box-shadow: 0 2px 20px 0 rgb(224, 224, 224);
+    background-color: rgb(252, 252, 252);
     position: fixed;
     z-index: 999998;
     backdrop-filter: blur(15px);
@@ -35,4 +34,11 @@ a{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+@media (min-width:450px) {
+    .top {
+        backdrop-filter: blur(15px);
+        background-color: rgba(255, 255, 255,50%);
+    }
+}
+
 
