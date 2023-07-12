@@ -8,7 +8,7 @@ body {
     background-color: rgba(255, 255, 255,50%);
     box-shadow: 0 2px 20px 0 rgb(224, 224, 224);
     position: fixed;
-    z-index: 99999;
+    z-index: 999998;
     backdrop-filter: blur(15px);
 }
 ul {
