@@ -1,4 +1,24 @@
-@font-face {
+  @font-face {
     font-family: "fang";
     src: url('./1636716444642429.ttf');
+  }
+  @font-face {
+    font-family: "ali";
+    src: url('./阿里妈妈东方大楷_Regular.ttf');
+  }
+  @font-face {
+    font-family: "banma";
+    src: url('./CKTBMZL.ttf');
+  }
+  @font-face {
+    font-family: "sanji";
+    src: url('./三极素纤简体.ttf');
+  }
+  @font-face {
+    font-family: "son";
+    src: url('./醍醐书体A.ttf');
+  }
+  @font-face {
+    font-family: "koulen";
+    src: url('./Koulen-Regular.ttf');
   }

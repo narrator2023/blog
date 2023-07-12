@@ -133,6 +133,8 @@
     .b004 {
         margin: 0 !important;
         font-size: 17px !important;
+        position: absolute;
+        left: 20px;
     }
     #weibu {
         position: absolute;
@@ -144,7 +146,7 @@
         align-items: center;
     }
     .all {
-        display: none;
+        display: none !important;
     }
     .bottom2 {
         width: 80px;
@@ -179,6 +181,16 @@
     #go {
         font-size: 30px;
     }
+    .top li {
+    padding: 0 13px;
+    } 
+    h3 {
+        color: black !important;
+    }
+    .bottom3 {
+        color: black !important;
+    }
+
 }
 
 @media (max-width:311px) {
@@ -198,6 +210,10 @@
     .nothing {
         text-align: center;
         margin: 20px;
+    }
+    body {
+        margin: 0;
+        background-color: rgb(252, 252, 252);
     }
 }
 

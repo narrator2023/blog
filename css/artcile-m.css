@@ -1,0 +1,15 @@
+@media (max-width:600px) {
+    #article {
+        min-width: 85%;
+    }
+}
+@media (min-width:451px) and (max-width:1400px) {
+    #article {
+        min-width: 60%;
+    }
+}
+@media (max-width:350px) {
+    .top li {
+        display: none;
+    }
+}

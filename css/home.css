@@ -11,13 +11,12 @@ html {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    border: 2px solid rgb(248, 248, 248);
+    border: 2px solid rgba(0,0,0,0);
     top: 80px;
 }
 .neiron {
     width: 620px;
     height: 270px;
-    border: 1px solid rgb(201, 201, 201);
     margin-top: 20px;
     border-radius: 15px;
     margin: 15px;
@@ -28,7 +27,6 @@ html {
 .anjian {
     width: 255px;
     height: 80px;
-    border: 1px solid rgb(201, 201, 201);
     border-radius: 7px;
     margin: 15px;
     background-color: rgb(255, 255, 255);
@@ -39,12 +37,15 @@ html {
     transition-delay: 0s !important;
     box-shadow: 2px 5px 5px rgb(22, 22, 22, 0.24);
 }
+.b01 {
+    font-family:'banma';
+    font-weight: normal;
+}
 .myself {
     width: 250px;
     height: 300px;
-    background: linear-gradient(rgb(0, 0, 255) 5%,rgba(40, 40, 253, 0.993) 40%,rgb(50, 50, 255));
+    background-color: rgba(0, 38, 255, 80%);
     border-radius: 10px;
-    border: 1px solid rgb(201, 201, 201);
     box-shadow: 0px 0px 25px rgba(24, 24, 24, 0.24);
 
 }
@@ -93,6 +94,7 @@ a:visited{
     top: 50px;
     transition-duration: 0.4s;
     z-index: 9999;
+    font-family: 'ali';
 }
 #button {
     height: 35px;
@@ -136,7 +138,7 @@ a:visited{
     position: absolute;
     top: 1290px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px -10px 20px 0 rgb(238, 238, 238);
+    box-shadow: 0px -10px 20px 0 rgb(214, 214, 214);
     z-index: 99999;
 }
 .wenzhang:hover {
@@ -164,9 +166,45 @@ a:visited{
     flex-direction: column;
 }
 .bottom3:hover {
-    color: blue;
+    color: rgba(221, 221, 221, 0.671) !important;
 }
-
+.bottom3 {
+    font-size: 17px;
+    color: white;
+}
+.bottom3:visited{
+    color:white;
+}
+h3 {
+    font-family:'ali';
+    font-weight: normal;
+}
+.day {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition-duration: 0.4s; 
+}
+.day:hover {
+    transform: translate(0,-4px);
+    box-shadow: 0px 10px 25px rgba(49, 49, 49, 0.24);
+    background-color: white;
+}
+.day:hover .thing {
+    color: black;
+} 
+.thing {
+    word-wrap: break-word;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: 'son';
+    font-size: 17px;
+}
+#page:hover {
+    filter: drop-shadow(blue,0,0);
+} 
 /* 加载页面 */
 .loading {
     width: 100%;
@@ -174,7 +212,7 @@ a:visited{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgb(23, 57, 151);
+    background-color: rgb(18, 71, 218);
     z-index: 9999999;
 }
 
@@ -182,6 +220,23 @@ a:visited{
     display: inline-block;
     margin-left: 75px;
     width: 60px;
+}
+#about2 ::-webkit-scrollbar
+{
+    width: 6px;
+    height: 16px;
+    background-color: #F5F5F5;
+}
+ 
+#about2 ::-webkit-scrollbar-track
+{
+    background-color: #003cff;
+}
+ 
+#about2 ::-webkit-scrollbar-thumb
+{
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 @media (min-width:1190px) {
