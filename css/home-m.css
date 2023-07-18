@@ -26,15 +26,9 @@
     }
     #b01 {
         font-size: 20px !important;
-        position: relative;
-        left: 40px;
-        top: 20px;
     }
     #b02 {
         font-size: 20px !important;
-        position: relative;
-        left: 45px;
-        top: 20px;
     }
     #div4 {
         display: flex;
@@ -190,7 +184,15 @@
     .bottom3 {
         color: black !important;
     }
-
+    .biaoqian {
+        background-color:white !important;
+    }
+    .biaoqian p {
+        color: black !important;
+    }
+    #biaoqian a {
+        display: none;
+    }
 }
 
 @media (max-width:311px) {
@@ -243,11 +245,5 @@
     #div14 {
         min-width: 320px;
         margin: 0 auto;
-    }
-}
-@media (min-width:335px) and (max-width:401px) {
-    .biaoqian {
-        margin-left: 26px;
-        width: 40px;
     }
 }

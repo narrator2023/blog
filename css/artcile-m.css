@@ -8,8 +8,16 @@
         min-width: 60%;
     }
 }
-@media (max-width:350px) {
+@media (max-width:360px) {
     .top li {
         display: none;
+    }
+}
+@media (max-width:800px) {
+    #biaoqian a {
+        display: none;
+    }
+    #button-top {
+        display: block;
     }
 }

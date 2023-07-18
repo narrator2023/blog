@@ -10,7 +10,8 @@ body {
     position: absolute;
     top: 100px;
 }
-.log {
+.log,
+.article {
     height: 100px;
     width: 290px;
     background-color: rgb(255, 255, 255);
@@ -23,6 +24,11 @@ body {
 .log:hover {
     box-shadow: 20px 20px 2px 0px rgb(148, 148, 148);
     transform: translate(-5px,-5px);
+}
+.article:hover {
+    box-shadow: 20px 20px 2px 0px rgb(148, 148, 148);
+    transform: translate(-5px,-5px);
+    border: 1px solid blue;
 }
 .font {
     font-size: 15px;
@@ -39,6 +45,9 @@ p {
     font-size: 15px;
     margin-bottom: 10px;
     margin-top: 7px;
+}
+.nav,#button-top {
+    display: none;
 }
 /* 加载页面 */
 .loading {
