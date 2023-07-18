@@ -73,7 +73,7 @@ li a:hover {
 }
 @media (max-width:800px) {
     ul {
-        justify-content: space-around ;
+        justify-content: space-around !important;
     }
     .top:hover {
         height: 270px;

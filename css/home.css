@@ -46,7 +46,7 @@ html {
 .myself {
     width: 250px;
     height: 300px;
-    background-color: rgba(0, 38, 255, 80%);
+    background-color: rgba(0, 38, 255);
     border-radius: 10px;
     box-shadow: 0px 0px 25px rgba(24, 24, 24, 0.24);
 
