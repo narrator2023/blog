@@ -1,0 +1,31 @@
+@media (max-width:800px) {
+    .article {
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    .p {
+        margin-top: 10px;
+    }
+}
+@media (max-width:320px) {
+    .article {
+        margin-left: 10px;
+    }
+}
+@media (max-width:425px) {
+    .top li {
+        padding: 0 13px;
+    }
+}
+@media (max-width:800px) {
+    #biaoqian a {
+        display: none;
+    }
+    .nav,#button-top {
+        display: block;
+    }
+    .article {
+        width: 110%;
+        height: 110px;
+    }
+}

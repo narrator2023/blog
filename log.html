@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log</title>
+    <link rel="stylesheet" href="./css/log.css">
+    <link rel="stylesheet" href="./css/log-@media.css">
+    <link rel="shortcut icon"type="image/x-icon" href="./img/logo.ico"media="screen" />
+    <script type="text/javascript">
+        document.onreadystatechange = function() {
+            if (document.readyState == "complete") {
+                setTimeout(function() {
+                    $(".loading").fadeOut(500);
+                }, 500);
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- 顶部栏 -->
+    <div id="top">
+        <div id="logo"></div>
+        <div id="tag">
+            <p onclick="window.open('./index.html','_self')" class="zi">首页</p>
+            <p onclick="window.open('#','_self')" class="zi" id="now">日志</p>
+            <p onclick="window.open('#','_self')" class="zi">关于</p>
+        </div>
+    </div>
+    <!-- 内容区 -->
+    <div id="div1">
+        <div class="article" onclick="window.open('./article/article001.html','_self');">
+            <div class="font"><b class="b01">#</b>&nbsp;&nbsp;July 2023</div>
+            <p class="p">远程搭建虚拟局域网(VLAN)</p>
+            <p class="p" style="font-size:10px; color:rgb(46, 46, 46);margin-top: 15px;">July 11th</p>
+        </div>        
+    </div>
+</body>
+</html>
